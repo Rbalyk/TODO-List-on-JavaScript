@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body #firstcontent, body #secondcontent {
+    padding: 15px;
+    width: 400px;
+    float: none;
+    display: block;
+    margin: 0 auto; }
+  body p {
+    font-family: inherit;
+    color: #424242;
+    font-size: 18px; }
+  body .actions {
+    float: right;
+    margin-top: 4px; }
+    body .actions #up, body .actions #down, body .actions #remove {
+      border: 0px;
+      width: 26px;
+      height: 27px;
+      margin-right: 5px;
+      cursor: pointer;
+      outline: none;
+      border-radius: 5px; }
+    body .actions #up {
+      background: url("../img/arrow_up.png");
+      background-repeat: no-repeat; }
+    body .actions #down {
+      background: url("../img/arrow_down.png");
+      background-repeat: no-repeat; }
+    body .actions #remove {
+      background: url("../img/cancel.png");
+      background-repeat: no-repeat; }
+  body #maindesk {
+    padding-left: 0px; }
+    body #maindesk li {
+      list-style: decimal;
+      margin-left: 15px; }
+      body #maindesk li p {
+        color: #282828;
+        font-family: Helvetica;
+        font-size: 16px; }
+      body #maindesk li:hover {
+        height: 35px;
+        line-height: 35px;
+        border-top: 1px dashed #ccc;
+        border-bottom: 1px dashed #ccc; }
+  body #add {
+    width: 100px;
+    margin: 15px 0px; }
+  body .top-box {
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer; }
+    body .top-box label {
+      cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  #firstcontent, #secondcontent {
+    padding: 15px;
+    width: 400px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    font-family: inherit;
+    color: #424242;
+    font-size: 18px;
+  }
+  .actions {
+    float: right;
+    margin-top: 4px;
+    #up, #down, #remove {
+      border: 0px;
+      width: 26px;
+      height: 27px;
+      margin-right: 5px;
+      cursor: pointer;
+      outline: none;
+      border-radius: 5px;
+    }
+    #up {
+      background: url("../img/arrow_up.png");
+      background-repeat: no-repeat;
+    }
+    #down {
+      background: url("../img/arrow_down.png");
+      background-repeat: no-repeat;
+    }
+    #remove {
+      background: url("../img/cancel.png");
+      background-repeat: no-repeat;
+    }
+  }
+  #maindesk {
+    padding-left: 0px;
+    li {
+      list-style: decimal;
+      margin-left: 15px;
+      p {
+        color: #282828;
+        font-family: Helvetica;
+        font-size: 16px;
+      }
+      &:hover {
+        height: 35px;
+        line-height: 35px;
+        border-top: 1px dashed #ccc;
+        border-bottom: 1px dashed #ccc;
+      }
+    }
+  }
+  #add {
+    width: 100px;
+    margin: 15px 0px;
+  }
+  .top-box {
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+    label{
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+
